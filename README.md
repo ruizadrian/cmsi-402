@@ -24,6 +24,7 @@
 ### Technologies
 * Phaser.io
 * JavaScript
+* Intel XDK
 * Cocoon.js
 * Python
 * Parse
