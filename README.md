@@ -27,4 +27,4 @@
 * Intel XDK
 * Cocoon.js
 * Python
-* Parse
+* Firebase
