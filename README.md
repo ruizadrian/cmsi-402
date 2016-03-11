@@ -1,10 +1,10 @@
 # cmsi-402
 
-## Cat Game (Name still to be determined)
+## Unicat Escape
 
 ### Description
 * 2D Endless running game
-* Cat running away from hoomans that are trying to catch you
+* Unicorn Cat running away from hoomans that are trying to catch you because you are so rare!
 * Powerups/Bad items you don't want to get
 * Game to be compatible on Desktop & Mobile
 * Compete and see who can last the longest time running away!
