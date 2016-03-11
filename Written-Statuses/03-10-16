@@ -1,0 +1,8 @@
+###Current Application Status
+
+The current status of my application is that I am working on graphics for my game.
+I have taken a quick break from the functional development of my game and have began to focus on the graphics that I am going to need for my game.
+In terms of my current game functionality status, I have a working prototype of a box that moves back, in which the user clicks somewhere on the screen to move the box in order to avoid objects coming their way. If the user collides with other items, it takes some damage, until it is hit 3 times. 
+The main reason why I have decided to take a break from this and focus more on the graphics side is due to the fact that I feel that I have a decent amount of progress made on the application and I want to begin implementing graphics in order to see the actual sizes and make it look better. Once graphics are implemented, then I can begin to move forward again with the application development and begin to add database functionality and other functionalities.
+
+**Will be uploading work onto github shortly. Have been working from my home computer and not from my personal laptop**
