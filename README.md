@@ -2,7 +2,8 @@
 
 ## Unicat Escape
 
-#### *Logo and Pictures Coming Soon*
+![alt tag] (https://raw.githubusercontent.com/ruizadrian/cmsi-402/master/Graphics/image.png?token=AIL95rGngH3tgtM8-US61zG0TW2aVsnqks5W7okJwA%3D%3D)
+
 ### Description
 * 2D Endless running game
 * Unicorn Cat running away from hoomans that are trying to catch you because you are so rare!
