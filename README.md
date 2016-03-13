@@ -25,6 +25,7 @@
 ### Technologies
 * Phaser.io
 * JavaScript
+* Sublime Text 2
 * Intel XDK
 * Cocoon.js
 * Python
