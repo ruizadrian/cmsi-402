@@ -30,3 +30,5 @@
 * Cocoon.js
 * Python
 * Firebase
+* Adobe Illustrator
+* Graphic (iPad Pro Illustrator-like application)
