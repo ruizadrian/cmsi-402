@@ -7,6 +7,7 @@
 ### Description
 * 2D Endless running game
 * Unicorn Cat running away from hoomans that are trying to catch you because you are so rare!
+* Must run as far as possible while avoiding objects coming your way!
 * Powerups/Bad items you don't want to get
 * Game to be compatible on Desktop & Mobile
 * Compete and see who can last the longest time running away!
@@ -27,7 +28,6 @@
 * Phaser.io
 * JavaScript
 * Sublime Text 2
-* Intel XDK
 * Cocoon.js
 * Python
 * Firebase
