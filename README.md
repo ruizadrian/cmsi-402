@@ -2,7 +2,8 @@
 
 ## Unicat Escape
 
-#### *Logo and Pictures Coming Soon*
+![alt tag] (https://raw.githubusercontent.com/ruizadrian/cmsi-402/master/Graphics/image.png?token=AIL95mrgX7u5d5XBHKMkEVhU2XUGN2Mzks5W7owYwA%3D%3D)
+
 ### Description
 * 2D Endless running game
 * Unicorn Cat running away from hoomans that are trying to catch you because you are so rare!
@@ -25,7 +26,10 @@
 ### Technologies
 * Phaser.io
 * JavaScript
+* Sublime Text 2
 * Intel XDK
 * Cocoon.js
 * Python
 * Firebase
+* Adobe Illustrator
+* Graphic (iPad Pro Illustrator-like application)
