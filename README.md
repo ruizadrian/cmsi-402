@@ -2,7 +2,7 @@
 
 ## Unicat Escape
 
-![alt tag] (https://raw.githubusercontent.com/ruizadrian/cmsi-402/master/Graphics/image.png?token=AIL95mrgX7u5d5XBHKMkEVhU2XUGN2Mzks5W7owYwA%3D%3D)
+![alt tag] (https://github.com/ruizadrian/cmsi-402/blob/master/Graphics/image.png)
 
 ### Description
 * 2D Endless running game
