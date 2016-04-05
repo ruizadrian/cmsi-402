@@ -12,19 +12,19 @@ var menuState = {
         this.title = game.add.image(game.world.centerX, 210,
             'title');
         this.title.anchor.setTo(0.5, 0.3);
-        this.playButton = game.add.button(185, 460, 'play_button', this.startGame, this);
+        this.playButton = game.add.button(230, 500, 'play_button', this.startGame, this);
         this.tweenButtons(this.playButton);
 
-        this.muteButton = game.add.button(75, 550, 'mute_button', this.muteSound, this);
+        this.muteButton = game.add.button(250, 675, 'mute_button', this.muteSound, this);
         this.tweenButtons(this.muteButton);
         if (game.sound.mute) {
             this.muteButton.frame = 1;
         }
 
-        this.helpButton = game.add.button(game.world.centerX, 660, 'help_button', this.helpPopup, this);
+        this.helpButton = game.add.button(355, 620, 'help_button', this.helpPopup, this);
         this.tweenButtons(this.helpButton);
 
-        this.creditsButton = game.add.button(400, 510, 'credits_button', this.credits, this);
+        this.creditsButton = game.add.button(170, 645, 'credits_button', this.credits, this);
         this.tweenButtons(this.creditsButton);
 
         this.helpImage = game.add.button(game.world.centerX, game.world.centerY, 'help_image', this.helpPopup, this);
