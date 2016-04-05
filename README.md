@@ -2,11 +2,12 @@
 
 ## Unicat Escape
 
-![alt tag] (https://raw.githubusercontent.com/ruizadrian/cmsi-402/master/Graphics/image.png?token=AIL95mrgX7u5d5XBHKMkEVhU2XUGN2Mzks5W7owYwA%3D%3D)
+![alt tag] (https://github.com/ruizadrian/cmsi-402/blob/master/Graphics/image.png)
 
 ### Description
 * 2D Endless running game
 * Unicorn Cat running away from hoomans that are trying to catch you because you are so rare!
+* Must run as far as possible while avoiding objects coming your way!
 * Powerups/Bad items you don't want to get
 * Game to be compatible on Desktop & Mobile
 * Compete and see who can last the longest time running away!
@@ -27,7 +28,6 @@
 * Phaser.io
 * JavaScript
 * Sublime Text 2
-* Intel XDK
 * Cocoon.js
 * Python
 * Firebase

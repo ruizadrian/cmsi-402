@@ -10,6 +10,7 @@ var loadState = {
         progressBar.anchor.setTo(0.5, 0.5);
         game.load.setPreloadSprite(progressBar);
 
+<<<<<<< HEAD
         //Let's load player stuff
         game.load.image('player', 'assets/character/unicat.png');
         game.load.spritesheet('star_stream', 'assets/character/stream.png', 48, 45);
@@ -32,6 +33,8 @@ var loadState = {
         game.load.image('life_particle', 'assets/background/particle_life.png');
 
         //UI
+=======
+>>>>>>> 5bf8a04ee7415e8e250512df16dd4363f0d5d869
         game.load.image('empty_heart', 'assets/ui/empty_heart.png');
         game.load.image('full_heart', 'assets/ui/full_heart.png');
         game.load.image('play_button', 'assets/ui/play_button.png');
@@ -40,7 +43,6 @@ var loadState = {
         game.load.spritesheet('mute_button', 'assets/ui/mute_button.png', 154, 200);
         game.load.image('menu_background', 'assets/ui/menu_background.png');
         game.load.image('title', 'assets/ui/title.png');
-        game.load.image('defeat', 'assets/ui/defeat.png');
         game.load.image('back_button', 'assets/ui/back_icon.png');
 
     },
