@@ -10,7 +10,6 @@ var loadState = {
         progressBar.anchor.setTo(0.5, 0.5);
         game.load.setPreloadSprite(progressBar);
 
-<<<<<<< HEAD
         //Let's load player stuff
         game.load.image('player', 'assets/character/unicat.png');
         game.load.spritesheet('star_stream', 'assets/character/stream.png', 48, 45);
@@ -19,7 +18,7 @@ var loadState = {
         game.load.image('rock_walls', 'assets/background/rock_walls.png');
         game.load.image('background', 'assets/background/background.png');
 
-        //Rocks
+        //Let's load the falling rocks I guess
         game.load.image('small_rock', 'assets/background/small_rock.png');
         game.load.image('big_rock', 'assets/background/big_rock.png');
         game.load.image('small_rock2', 'assets/background/small_rock2.png');
@@ -28,21 +27,28 @@ var loadState = {
         game.load.image('rock_particle', 'assets/background/particle_rock.png');
         game.load.image('dust_particle', 'assets/background/particle_dust.png');
 
+        //Lets load sounds
+        // game.load.audio(''
+        // game.load.audio(''
+        // game.load.audio(''
+        // game.load.audio(''
+        // game.load.audio(''
+
         //Powerups
         game.load.image('powerup', 'assets/background/powerup.png');
         game.load.image('life_particle', 'assets/background/particle_life.png');
 
         //UI
-=======
->>>>>>> 5bf8a04ee7415e8e250512df16dd4363f0d5d869
         game.load.image('empty_heart', 'assets/ui/empty_heart.png');
         game.load.image('full_heart', 'assets/ui/full_heart.png');
         game.load.image('play_button', 'assets/ui/play_button.png');
         game.load.image('help_button', 'assets/ui/help_button.png');
         game.load.image('credits_button', 'assets/ui/info_button.png');
+        //game.load.image('help_image', '');
         game.load.spritesheet('mute_button', 'assets/ui/mute_button.png', 154, 200);
         game.load.image('menu_background', 'assets/ui/menu_background.png');
         game.load.image('title', 'assets/ui/title.png');
+        game.load.image('defeat', 'assets/ui/defeat.png');
         game.load.image('back_button', 'assets/ui/back_icon.png');
 
     },

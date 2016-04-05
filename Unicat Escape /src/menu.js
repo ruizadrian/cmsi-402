@@ -1,16 +1,16 @@
 var menuState = {
     create: function() {
-        if (!game.global.music) {
-            this.music = game.add.audio('soundtrack_menu', 0.8, true);
-            this.music.play();
-            game.global.music = true;
-        }
+        // if (!game.global.music) {
+        //     this.music = game.add.audio('', 0.8, true);
+        //     this.music.play();
+        //     game.global.music = true;
+        // }
         this.background = game.add.image(game.world.centerX, game.world.height, 'menu_background');
         this.background.anchor.setTo(0.5, 1);
 
+
         this.displayScores();
-        this.title = game.add.image(game.world.centerX, 210,
-            'title');
+        this.title = game.add.image(game.world.centerX, 210, 'title');
         this.title.anchor.setTo(0.5, 0.3);
         this.playButton = game.add.button(230, 500, 'play_button', this.startGame, this);
         this.tweenButtons(this.playButton);

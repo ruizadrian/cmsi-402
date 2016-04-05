@@ -21,7 +21,7 @@ var creditsState = {
             fill: '#424242'
         });
         this.musicCreator.anchor.setTo(0.5, 0.5);
-        this.musicCreatorName = game.add.text(game.world.centerX, 500, 'Various Artists', {
+        this.musicCreatorName = game.add.text(game.world.centerX, 500, 'TBD', {
             font: '36px Impact',
             fill: '#fff',
             //fontSize: 48

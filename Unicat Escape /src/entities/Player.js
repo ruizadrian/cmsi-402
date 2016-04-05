@@ -4,10 +4,6 @@ Player = function(game) {
     this.lives = 3;
     this.isDead = false;
     this.canMove = true;
-    thud = game.add.audio('thud');
-    power = game.add.audio('power');
-    moving = game.add.audio('moving', 0.8);
-    death = game.add.audio('death');
     rockEmitter = game.add.emitter(-100, -100, 100);
     rockEmitter.makeParticles('rock_particle');
     dustEmitter = game.add.emitter(-100, -100, 100);
@@ -58,7 +54,6 @@ Player.prototype = {
                 dustEmitter.y += 30;
                 dustEmitter.gravity = 0;
                 dustEmitter.start(true, 2000, 250, 50);
-                death.play();
             }
             this.isDead = true;
         }
@@ -66,7 +61,6 @@ Player.prototype = {
     move: function(pointer) {
         if (this.canMove) {
             this.canMove = false;
-            moving.play();
             var tempX;
             if (pointer.x < 25) {
                 tempX = 25;
@@ -92,13 +86,11 @@ Player.prototype = {
             object.kill();
             lifeEmitter.x = object.x;
             lifeEmitter.y = object.y;
-            power.play();
             lifeEmitter.start(true, 2000, 250, 10);
             if (player.lives < 3) {
                 player.lives++;
             }
         } else {
-            thud.play();
             object.kill();
             rockEmitter.x = dustEmitter.x = object.x;
             rockEmitter.y = dustEmitter.y = object.y;
