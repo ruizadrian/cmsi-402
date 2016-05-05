@@ -1,10 +1,10 @@
 var menuState = {
     create: function() {
-        // if (!game.global.music) {
-        //     this.music = game.add.audio('', 0.8, true);
-        //     this.music.play();
-        //     game.global.music = true;
-        // }
+        if (!game.global.music) {
+            this.music = game.add.audio('Reboot', 0.8, true);
+            this.music.play();
+            game.global.music = true;
+        }
         this.background = game.add.image(game.world.centerX, game.world.height, 'menu_background');
         this.background.anchor.setTo(0.5, 1);
 
@@ -21,33 +21,22 @@ var menuState = {
             this.muteButton.frame = 1;
         }
 
-        this.helpButton = game.add.button(355, 620, 'help_button', this.helpPopup, this);
+        this.helpButton = game.add.button(355, 620, 'help_button', this.help, this);
         this.tweenButtons(this.helpButton);
 
         this.creditsButton = game.add.button(170, 645, 'credits_button', this.credits, this);
         this.tweenButtons(this.creditsButton);
-
-        this.helpImage = game.add.button(game.world.centerX, game.world.centerY, 'help_image', this.helpPopup, this);
-        this.helpImage.anchor.setTo(0.5, 0.5);
-        this.helpImage.kill();
-        this.help = false;
     },
 
     startGame: function() {
         game.state.start('play');
     },
 
-    helpPopup: function() {
-        this.help = !this.help;
-        if (this.help) {
-            this.helpImage.revive();
-        } else {
-            this.helpImage.kill();
-        }
-    },
-
     credits: function() {
         game.state.start('credits');
+    },
+    help: function() {
+        game.state.start('help');
     },
 
     muteSound: function() {

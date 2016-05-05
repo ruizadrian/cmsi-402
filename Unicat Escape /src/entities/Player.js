@@ -58,6 +58,8 @@ Player.prototype = {
             this.isDead = true;
         }
     },
+        //  only move when you click
+    
     move: function(pointer) {
         if (this.canMove) {
             this.canMove = false;
@@ -69,6 +71,7 @@ Player.prototype = {
             } else {
                 tempX = pointer.x;
             }
+            
 
             game.add.tween(this.group)
                 .to({
@@ -80,6 +83,36 @@ Player.prototype = {
             }), this);
         }
     },
+
+    // move: function(pointer) {
+    //     if (this.canMove) {
+
+    //         while (game.input.mousePointer.isDown){
+    //             tempX = game.input.x;
+    //         }
+    //         // this.canMove = false;
+    //         // var tempX;
+    //         // if (pointer.x < 25) {
+    //         //     tempX = 25;
+    //         // } else if (pointer.x > 550) {
+    //         //     tempX = 550;
+    //         // } else if (game.input.mousePointer.isDown){
+    //         //     //tempX = pointer.x;
+    //         //     game.physics.arcade.moveToPointer;
+    //         //     tempX = game.input.x;
+    //         // }
+
+
+    //         game.add.tween(this.group)
+    //             .to({
+    //                 x: tempX - 290
+    //             }, 300, Phaser.Easing.Back.InOut)
+    //             .start();
+    //         game.time.events.add(350, (function() {
+    //             this.canMove = true;
+    //         }), this);
+    //     }
+    // },
 
     onHit: function(playerSprite, object) {
         if (object.key === 'powerup') {

@@ -12,4 +12,5 @@ game.state.add('load', loadState);
 game.state.add('menu', menuState);
 game.state.add('play', playState);
 game.state.add('credits', creditsState);
+game.state.add('help', helpState);
 game.state.start('boot');
